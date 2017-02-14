@@ -30,7 +30,7 @@ dependencies {
     // The production code uses the SLF4J logging API at compile time
     //compile 'org.slf4j:slf4j-api:1.7.21'
     compile files('C:/JavaLib/slf4j-1.7.22/slf4j-api-1.7.22.jar')
-	compile files('C:/JavaLib/slf4j-1.7.22/slf4j-simple-1.7.22.jar')
+    compile files('C:/JavaLib/slf4j-1.7.22/slf4j-simple-1.7.22.jar')
     compile files('C:/JavaLib/selenium-server-standalone-3.0.1.jar')
     compile files('C:/JavaLib/allure/allure-testng-adaptor-1.4.23.HOTFIX1.jar')
     compile files('C:/JavaLib/allure/allure-java-annotations-1.4.23.HOTFIX1.jar')
@@ -59,7 +59,7 @@ test {
 	
 	//suites './testng-customsuite.xml'
 	include './src/test/java/*.*'
-	include './build/classes/test/MyAllureReportsTest.class'
+	//include './build/classes/test/MyAllureReportsTest.class'
 	
 	testLogging.showStandardStreams = true
 	
