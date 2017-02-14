@@ -1,0 +1,2 @@
+# MyGradleAllure
+MyGradleAllure
