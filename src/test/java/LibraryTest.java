@@ -9,6 +9,8 @@ import static org.junit.Assert.*;
  */
 
 //Org IVAVSYS
+//Author: Sample
+
 public class LibraryTest {
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
