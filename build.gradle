@@ -20,8 +20,8 @@ repositories {
        	dirs 'C:/JavaLib'
        	dirs 'C:/JavaLib/slf4j-1.7.22'
        	dirs 'C:/JavaLib/allure'
-		dirs 'C:/gradle/bin'
-   	}
+	dirs 'C:/gradle/bin'
+    }
     
 }
 
